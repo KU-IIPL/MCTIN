@@ -22,13 +22,6 @@ The pre-trained model used in our experiments (metalearning.pt) can be downloade
 
 ---
 
-## Code Format
 
-The code format adheres to the **METAIQA** style.
+The code format adheres to the [METAIQA](https://github.com/zhuhancheng/MetaIQA) style.
 
-### How to Insert a METAIQA Link
-
-To insert a link in Markdown, use the following syntax:
-
-```markdown
-[Link Text](URL)
