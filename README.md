@@ -19,7 +19,7 @@ The code for MCTINet is available at:
 
 ## Pre-trained Model
 
-The pre-trained model used in our experiments (metalearning.pt) can be downloaded from the following link:
+The pre-trained model used in our experiments (meta_Train.pt) can be downloaded from the following link:
 
 [https://drive.google.com/file/d/1nGLYTqg9aPsrgal3rQQ8Zb8nvJtCigHb/view?usp=sharing](https://drive.google.com/file/d/1nGLYTqg9aPsrgal3rQQ8Zb8nvJtCigHb/view?usp=sharing)
 
