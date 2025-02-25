@@ -237,9 +237,6 @@ def finetune_model():
     if not os.path.exists(images_fold):
         os.makedirs(images_fold)
     for i in range(10):
-
-        # random_seed = random.randint(0, 2**32 - 1)
-        # print(f"Generated random seed: {random_seed}")
         set_seed(1417015862)
 
         images_train, images_test = train_test_split(images, train_size = 0.8)
