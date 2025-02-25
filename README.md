@@ -1,5 +1,5 @@
 # Meta-learning Convolution Transformer Integration Network for No-Reference Image Quality Assessment
-
+*Donghyeon Lim, Changhoon Yim, Senior member, and Alan C. Bovik, Fellow*
 ## Abstract
 
 The goal of no-reference image quality assessment (NR-IQA) is to evaluate image quality based on human perception without the need for a reference image. In this paper, we propose an efficient NR-IQA method called the **Meta-learning Convolution Transformer Integration Network (MCTINet)**. MCTINet integrates a convolution-based **ResNet** and a transformer-based **Pyramid Vision Transformer (PVT)** to perform NR-IQA.
