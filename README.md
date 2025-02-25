@@ -8,6 +8,9 @@ We train these two backbone networks and integrate their output features from bo
 
 By combining ResNet and PVT within the meta-learning framework, MCTINet achieves rapid and efficient adaptation across different types of unknown distortions. Extensive experiments on multiple real-world authentic and synthetic distortion databases—including experiments on individual databases, specific distortion types, cross-database evaluations, cross-distortion evaluations, and ablation studies—demonstrate that MCTINet outperforms previous state-of-the-art methods in NR-IQA.
 
+## model Framework
+![model_1](https://github.com/user-attachments/assets/efdd511f-7eac-4f2b-9f75-9f916a4cfe6e)
+
 ## Repository
 
 The code for MCTINet is available at:
