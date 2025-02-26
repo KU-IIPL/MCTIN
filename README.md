@@ -1,5 +1,6 @@
 # Meta-learning Convolution Transformer Integration Network for No-Reference Image Quality Assessment
 Submited to IEEE Transactions on Image Processing
+
 *Donghyeon Lim, Changhoon Yim, IEEE Senior member, and Alan C. Bovik, IEEE Fellow*
 ## Abstract
 
