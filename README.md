@@ -2,11 +2,26 @@
 *Donghyeon Lim, Changhoon Yim, Senior member, and Alan C. Bovik, Fellow*
 ## Abstract
 
-The goal of no-reference image quality assessment (NR-IQA) is to evaluate image quality based on human perception without the need for a reference image. In this paper, we propose an efficient NR-IQA method called the **Meta-learning Convolution Transformer Integration Network (MCTINet)**. MCTINet integrates a convolution-based **ResNet** and a transformer-based **Pyramid Vision Transformer (PVT)** to perform NR-IQA.
-
-We train these two backbone networks and integrate their output features from both the support set and query set during the meta-learning training process to construct a meta-knowledge model. Leveraging this model for various distortions, fine-tuning is conducted on a target dataset with unknown distorted images using transfer learning.
-
-By combining ResNet and PVT within the meta-learning framework, MCTINet achieves rapid and efficient adaptation across different types of unknown distortions. Extensive experiments on multiple real-world authentic and synthetic distortion databases—including experiments on individual databases, specific distortion types, cross-database evaluations, cross-distortion evaluations, and ablation studies—demonstrate that MCTINet outperforms previous state-of-the-art methods in NR-IQA.
+The goal of no-reference image quality assessment
+(NR-IQA) is to measure the image quality in accordance with
+human perception in the absence of a reference image. In
+this paper, we propose an efficient NR-IQA method, called
+the Meta-learning Convolution Transformer Integration Network
+(MCTINet). MCTINet integrates a convolution-based ResNet and
+a transformer-based Pyramid Vision Transformer (PVT) that
+conducts NR-IQA. We train these two backbone networks and
+integrate the two sets of output features on the support set and
+query set in the meta-learning training process to construct
+the meta-knowledge model. Given the meta-knowledge model
+about various distortions, fine-tuning is conducted on a target
+dataset with unknown distorted images as transfer learning. By
+integrating ResNet and PVT backbone networks within the metalearning framework, our proposed model is able to conduct rapid
+and efficient learning across various types of unknown distortions. Extensive experiments are conducted on multiple realworld authentic and synthetic distortion databases to compare
+the performance of MCTINet with conventional and recent deep
+learning-based NR-IQA methods. These include experiments on
+individual databases, experiments on individual distortion types,
+cross database evaluation, cross distortion type evaluation, and
+ablation study. The experimental results show that MCTINet outperforms previous state-of-the-art methods for NR-IQA.
 
 ## model Framework
 ![model_1](https://github.com/user-attachments/assets/efdd511f-7eac-4f2b-9f75-9f916a4cfe6e)
@@ -18,6 +33,7 @@ The code for MCTINet is available at:
 [https://github.com/KU-IIPL/MCTIN](https://github.com/KU-IIPL/MCTIN)
 
 ## Pre-trained Model
+The PVT pre-trained model can be downloaded from [PVT](https://github.com/whai362/PVT) paper
 
 The pre-trained model used in our experiments (meta_Train.pt) can be downloaded from the following link:
 
